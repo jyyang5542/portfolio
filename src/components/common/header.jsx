@@ -14,6 +14,11 @@ function MyHeader() {
 						</NavLink>
 					</li>
 					<li>
+						<NavLink to="./skill" className={({isActive}) => '' + (isActive ? ' on' : '')}>
+							Skills
+						</NavLink>
+					</li>
+					<li>
 						<NavLink to="./portfolio" className={({isActive}) => '' + (isActive ? ' on' : '')}>
 							Portfolio
 						</NavLink>
